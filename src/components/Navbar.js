@@ -18,7 +18,7 @@ function NavBar(props) {
       <nav className="navbar  navbar-expand navbar-light bg-light ">
           <div className="container-fluid ">
             <ul className="nav navbar-nav ">
-            <li className="nav-item">
+            {/* <li className="nav-item">
                 <Link to ="/LoginPage" className="nav-link">Log in</Link>
               </li>
               <li className="nav-item">
@@ -27,7 +27,7 @@ function NavBar(props) {
 
               <li className="nav-item">
                 <Link to ="/SignupPage" className="nav-link">Sign up</Link>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <Link to ="/Calculator" className="nav-link">Calculator</Link>
               </li>
@@ -45,6 +45,9 @@ function NavBar(props) {
           <div className="container-fluid ">
             <ul className="nav navbar-nav ">
             <li className="nav-item">
+                <Link to ="/HomePage" className="nav-link">Home</Link>
+              </li>
+            {/* <li className="nav-item">
                 <Link to ="/LoginPage" className="nav-link">Log in</Link>
               </li>
               <li className="nav-item">
@@ -53,12 +56,11 @@ function NavBar(props) {
 
               <li className="nav-item">
                 <Link to ="/SignupPage" className="nav-link">Sign up</Link>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <Link to ="/Calculator" className="nav-link">Calculator</Link>
               </li>
             </ul>
-            <h4><span className="badge bg-info">{user[index].userName+" / "+user[index].userEmail} </span> </h4>
           </div>
         </nav>
     );

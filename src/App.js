@@ -10,6 +10,7 @@ import LoginPage from './components/LoginPage.js';
 import AccountPage from "./components/AccountPage";
 import SignupPage from "./components/SignupPage";
 import Calculator from "./components/Calculator";
+import HomePage from "./components/HomePage";
 import Footer from "./components/Footer.js";
 
 
@@ -38,6 +39,8 @@ function App() {
         <Route path="/SignupPage" element={<SignupPage toggleState={toggleState}/>} />
         <Route path = "/AccountPage" element={<AccountPage toggleState={toggleState}/>} />
         <Route path = "/Calculator" element={<Calculator toggleState={toggleState}/>} />
+        <Route path = "/HomePage" element={<HomePage toggleState={toggleState}/>} />
+
 
         <Route path = "/Acpage" element={<AccountPage toggleState={toggleState}/>} />
 
