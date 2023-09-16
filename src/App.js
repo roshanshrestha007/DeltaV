@@ -37,7 +37,7 @@ function App() {
         <NavBar />
         <Routes>
         <Route path="/LoginPage" element={<LoginPage toggleState={toggleState}/>} />
-        <Route path="/" element={<LoginPage toggleState={toggleState}/>} />
+        <Route path="/" element={<HomePage toggleState={toggleState}/>} />
         <Route path="/SignupPage" element={<SignupPage toggleState={toggleState}/>} />
         <Route path = "/AccountPage" element={<AccountPage toggleState={toggleState}/>} />
         <Route path = "/Calculator" element={<Calculator toggleState={toggleState}/>} />

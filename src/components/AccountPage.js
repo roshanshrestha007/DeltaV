@@ -1,11 +1,8 @@
 import React from 'react'
 import { useState } from 'react';
-import { useNavigate, Link } from 'react-router-dom';
-import LoginPage from './LoginPage';
-import Navbar from './Navbar';
-import Acpage from './AccountPage';
+import { useNavigate } from 'react-router-dom';
 
-import SignupPage from './SignupPage';
+
 
 
 function AccountPage(props) {
