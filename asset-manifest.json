@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/DeltaV/static/css/main.c8153ddc.css",
-    "main.js": "/DeltaV/static/js/main.dc295ebe.js",
-    "static/js/787.06326616.chunk.js": "/DeltaV/static/js/787.06326616.chunk.js",
-    "index.html": "/DeltaV/index.html",
-    "main.c8153ddc.css.map": "/DeltaV/static/css/main.c8153ddc.css.map",
-    "main.dc295ebe.js.map": "/DeltaV/static/js/main.dc295ebe.js.map",
-    "787.06326616.chunk.js.map": "/DeltaV/static/js/787.06326616.chunk.js.map"
+    "main.css": "/deltav/static/css/main.c8153ddc.css",
+    "main.js": "/deltav/static/js/main.b1ada5e8.js",
+    "static/js/787.06326616.chunk.js": "/deltav/static/js/787.06326616.chunk.js",
+    "index.html": "/deltav/index.html",
+    "main.c8153ddc.css.map": "/deltav/static/css/main.c8153ddc.css.map",
+    "main.b1ada5e8.js.map": "/deltav/static/js/main.b1ada5e8.js.map",
+    "787.06326616.chunk.js.map": "/deltav/static/js/787.06326616.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c8153ddc.css",
-    "static/js/main.dc295ebe.js"
+    "static/js/main.b1ada5e8.js"
   ]
 }
