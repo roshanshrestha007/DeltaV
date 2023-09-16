@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import AccountPage from './AccountPage';
-import Navbar from './Navbar';
+import AccountPage from '../../AccountPage';
+import Navbar from '../../Navbar';
 
 
-function Calculator(props) {
+function Conversion(props) {
     const [signupForm, setSignupForm] = useState({
         userName: "",
         userEmail: "",
@@ -26,7 +26,7 @@ function Calculator(props) {
 
     const [users, setUsers] = useState(getDatafromLS());
 
-    function HandelConversion(e) {
+    function HandleSpeedtoVelocity(e) {
         // e.preventDefault();
 
         // var username = document.getElementById("uname").value;
@@ -45,9 +45,9 @@ function Calculator(props) {
         //     const i = users.length;
         //     localStorage.setItem("UserIndex", i);
         //     props.toggleState();
-    //   }
-            navigate('/ConversionPage');
-        
+        //     navigate('/AccountPage');
+        // }
+        navigate('/SpeedToVelocityPage')
     }
 
     return (
@@ -55,15 +55,21 @@ function Calculator(props) {
         <div className="container mb-5 center">
             <div className="box justify-content-center">
                 <form className="was-validated">
-                    <h2 className="display-4 page-header mt-3 mb-3 d-flex ">Categories</h2>
+                    <h2 className="display-4 page-header mt-3 mb-3 d-flex ">Conversion Formulas</h2>
                     
                     <div>
-                    <button className="btn btn-primary" type="button" onClick={HandelConversion}>Conversions</button><br></br><br></br>
+                    <button type="button" class="btn btn-dark" onClick={HandleSpeedtoVelocity}>Convert Speed to Velocity</button>
+                    <br></br><br></br>
+                    <button type="button" class="btn btn-dark">Convert Velocity to Speed</button>
+                    <br></br><br></br>
+                    <button type="button" class="btn btn-dark">Dark</button>
+                    <br></br><br></br>
+                    <button type="button" class="btn btn-dark">Dark</button>
+                    <br></br><br></br>
+                    <button type="button" class="btn btn-dark">Dark</button>
+                    <br></br><br></br>
+                    <button type="button" class="btn btn-dark">Dark</button>
 
-                    <button className="btn btn-primary" type="button">Combined Speed</button><br></br><br></br>
-
-
-      <button className="btn btn-primary" type="button">Kinetic Energy Equivalent Speed Loss/Gain</button><br></br><br></br> 
 
 
 
@@ -88,7 +94,6 @@ function Calculator(props) {
       </div>
 
 
-                    {/* <button type="submit" className="btn btn-primary mt-4" onClick={HandleSubmission}>Sign Up</button> */}
 
                 </form>
             </div>
@@ -96,4 +101,4 @@ function Calculator(props) {
     )
 }
 
-export default Calculator;
+export default Conversion;
